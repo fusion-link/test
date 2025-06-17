@@ -41,6 +41,11 @@
    4. 输入 `ssh-keygen -t rsa -C "youremail@example.com"`，会在 .ssh 目录下生成 id_rsa、id_rsa.pub 两个私钥和公钥. 后面连续输入三次回车即可。
    5. 输入命令 `cat ~/.ssh/id_rsa.pub` 查看获取到的公钥，复制这个公钥地址，添加到 GitHub 的 SSH 配置中。
    6. 输入 `ssh git@github.com` 命令查看是否链接成功。
+3. 在终端中输入下述命令。
+   ```
+   git config --global user.name "用户名"  //随意
+   git config --global user.email "邮箱" //自己的邮箱
+   ```
 
 ## 使用 SourceTree
 
